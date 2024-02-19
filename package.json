@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "name": "my-ui-library",
+  "dependencies": {
+    "snabbdom": "^3.6.2"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "start": "lerna run start --stream",
+    "test": "lerna run test --stream",
+    "build": "lerna run build --stream"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
